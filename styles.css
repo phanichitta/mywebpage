@@ -1,0 +1,173 @@
+body{
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	animation: transitionIn 0.75s;
+
+
+}
+@keyframes transitionIn {
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(-10px);
+	}
+}
+.topcontainer{
+	background-color: #E4F9F5;
+	text-align: center;
+	padding-top: 100px;
+	font-family: sans-serif;
+}
+h1{
+font-family: 'Sacramento', cursive;
+	font-size: 90px;
+  color: #66BFBF;
+  line-height: 0.5;
+}
+h2{
+	font-family: 'Merriweather', serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+a{
+color: 	#11999e;
+font-family: sans-serif;
+margin: 10px 20px;
+text-decoration: none;
+
+}
+a:hover {
+	color: #EAF6F6;
+}
+.skillone{
+	height: 200px;
+	width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-top: auto;
+margin-bottom: auto;
+}
+.gif {
+  height: 200px;
+  width: 25%;
+float: right;
+margin-left: 50px;
+
+}
+.bottomcloud{
+	position: absolute;
+}
+.topcloud{
+	margin-left: 300px;
+	position: absolute;
+	top:50px;
+	bottom: 300px;
+	right: 400px;
+}
+.mountain{
+	align-content: center;
+}
+.bottom-container {
+  font-family: sans-serif;
+  color: #11999E;
+	background-color: #66bfbf;
+	padding: 50px 0px 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 0;
+	margin-right: 0;
+
+}
+.middle-container {
+  color: #515070;
+
+}
+h3 {
+	font-family: 'Merriweather', serif;
+  color: #66BFBF;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+	font-size: 15px;
+
+}
+.p {
+  font-size: 30;
+}
+hr {
+	border-style: none;
+	border-top-style: dotted;
+	border-width: 5px;
+	border-color: #ece8d9;
+
+	width: 5%;
+}
+
+.contact-message
+{
+width: 40%;
+margin: 40px auto 60px auto;
+}
+
+.btn {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.contact-me {
+	p
+	  font-family: sans-serif;
+		body{background:#59ABE3;margin:0}
+		.form{width:340px;height:440px;background:#e6e6e6;border-radius:8px;box-shadow:0 0 40px -10px #000;margin:calc(50vh - 220px) auto;padding:20px 30px;max-width:calc(100vw - 40px);box-sizing:border-box;font-family:'Montserrat',sans-serif;position:relative}
+		h2{margin:10px 0;padding-bottom:10px;width:180px;color:#78788c;border-bottom:3px solid #78788c}
+		input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}
+		input:focus{border-bottom:2px solid #78788c}
+		p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#5a5a5a}
+		button{float:right;padding:8px 12px;margin:8px 0 0;font-family:'Montserrat',sans-serif;border:2px solid #78788c;background:0;color:#5a5a6e;cursor:pointer;transition:all .3s}
+		button:hover{background:#78788c;color:#fff}
+		div{content:'Hi';position:absolute;bottom:-15px;right:-20px;background:#50505a;color:#fff;width:320px;padding:16px 4px 16px 0;border-radius:6px;font-size:13px;box-shadow:10px 10px 40px -14px #000}
+		span{margin:0 5px 0 15px}
+
+
+
+
+}
+.Copyright {
+	color: #EAF6F6;
+}
+.skills {
+font-family: 'Open Sans', sans-serif;
+
+
+}
